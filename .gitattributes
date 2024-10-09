@@ -1,2 +1,69 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Lovers Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Car Lovers Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Latest News and Updates</h2>
+        <p>Welcome to your go-to resource for everything automotive. From reviews to DIY tips, we've got you covered!</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Top 5 Classic Cars of All Time</h3>
+            <p>Explore our list of the most iconic classic cars and why they still capture our hearts...</p>
+            <a href="#">Read more</a>
+        </article>
+        <article>
+            <h3>How to Maintain Your Car</h3>
+            <p>Simple tips to keep your car running smoothly for years to come...</p>
+            <a href="#">Read more</a>
+        </article>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Check out these stunning cars submitted by our community!</p>
+        <!-- Add images here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Car Lovers Hub</p>
+    </footer>
+</body>
+</html>
