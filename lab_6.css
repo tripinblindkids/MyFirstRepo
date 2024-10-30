@@ -1,0 +1,148 @@
+
+.static-box {
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+  }
+
+  .relative-box {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+  }
+  
+
+  .container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+  }
+  
+  .absolute-box {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+  }
+  
+
+  .fixed-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+  }
+  
+
+  .sticky-box {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  
+  .background-image {
+    width: 200px;
+    height: 200px;
+    background-image: url('"C:\Users\Dylan Jefferson\OneDrive\Architecture\photographs\render_concept.png"'); 
+    background-size: cover;
+  }
+  
+
+  .background-image-repeat {
+    width: 200px;
+    height: 200px;
+    background-image: url('frshoboken.dng'); 
+    background-repeat: repeat;
+  }
+  
+
+  .box1 {
+    position: relative;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+  }
+  
+  .box2 {
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    margin-top: -80px; 
+  }
+  
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+ 
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+  .flex-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .flex-align-center {
+    display: flex;
+    align-items: center;
+    height: 300px;
+  }
+  
+  
+  .flex-align-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    height: 400px;
+  }
+  
+ 
+  .flex-grow {
+    display: flex;
+  }
+  
+  .flex-grow div:nth-child(2) {
+    flex-grow: 2;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+  }
+  
+  
+  .content {
+    height: 200vh; 
+  }
+  
+   
